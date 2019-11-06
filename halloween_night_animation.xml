@@ -56,6 +56,8 @@
     <Element collapsed="0" type="model" name="Driveway Edge - E" visible="1"/>
     <Element collapsed="0" type="model" name="Driveway Edge - W" visible="1"/>
     <Element collapsed="1" type="model" name="All" visible="1"/>
+    <Element collapsed="0" type="model" name="Driveway Sign - E" visible="1"/>
+    <Element collapsed="0" type="model" name="Driveway Sign - W" visible="1"/>
   </DisplayElements>
   <ElementEffects>
     <Element type="timing" name="New Timing">
@@ -196,7 +198,7 @@
         <Effect ref="6" name="SingleStrand" id="35" startTime="175025" endTime="177025" palette="4"/>
       </EffectLayer>
       <EffectLayer>
-        <Effect ref="7" name="Color Wash" startTime="0" endTime="180000" palette="6"/>
+        <Effect ref="7" name="Color Wash" selected="1" startTime="300" endTime="180300" palette="6"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="All">
@@ -212,6 +214,12 @@
         <Effect ref="10" name="Shimmer" startTime="2800" endTime="3200" palette="7"/>
         <Effect ref="10" name="Shimmer" id="1" startTime="156500" endTime="156900" palette="7"/>
       </EffectLayer>
+    </Element>
+    <Element type="model" name="Driveway Sign - E">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Driveway Sign - W">
+      <EffectLayer/>
     </Element>
   </ElementEffects>
   <lastView>0</lastView>

@@ -2,24 +2,24 @@
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
     <version>2019.61b</version>
-    <author></author>
-    <author-email></author-email>
-    <author-website></author-website>
-    <song></song>
-    <artist></artist>
-    <album></album>
-    <MusicURL></MusicURL>
-    <comment></comment>
+    <author/>
+    <author-email/>
+    <author-website/>
+    <song/>
+    <artist/>
+    <album/>
+    <MusicURL/>
+    <comment/>
     <sequenceTiming>50 ms</sequenceTiming>
     <sequenceType>Animation</sequenceType>
-    <mediaFile></mediaFile>
+    <mediaFile/>
     <sequenceDuration>30.000</sequenceDuration>
-    <imageDir></imageDir>
+    <imageDir/>
   </head>
   <nextid>1</nextid>
   <Jukebox/>
   <ColorPalettes>
-    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_SLIDER_Brightness=20</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_SLIDER_Brightness=25</ColorPalette>
   </ColorPalettes>
   <EffectDB>
     <Effect></Effect>
@@ -40,6 +40,7 @@
     <Element collapsed="0" type="model" name="SM Cage 1" visible="1"/>
     <Element collapsed="0" type="model" name="SM Cage 2" visible="1"/>
     <Element collapsed="0" type="model" name="LG Cage" visible="1"/>
+    <Element collapsed="0" type="model" name="Driveway Edges" visible="1"/>
   </DisplayElements>
   <ElementEffects>
     <Element type="timing" name="New Timing">
@@ -55,14 +56,10 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="Driveway Edge - E">
-      <EffectLayer>
-        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
-      </EffectLayer>
+      <EffectLayer/>
     </Element>
     <Element type="model" name="Driveway Edge - W">
-      <EffectLayer>
-        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
-      </EffectLayer>
+      <EffectLayer/>
     </Element>
     <Element type="model" name="Garage Roof Line">
       <EffectLayer/>
@@ -81,6 +78,11 @@
     </Element>
     <Element type="model" name="LG Cage">
       <EffectLayer/>
+    </Element>
+    <Element type="model" name="Driveway Edges">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
     </Element>
   </ElementEffects>
   <lastView>0</lastView>

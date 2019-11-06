@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xrgb>
   <models>
-    <model DisplayAs="Window Frame" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="16" parm3="16" Rotation="CW" LayoutGroup="Default" parm2="9" name="Driveway Sign - W" WorldPosX="-499.2249" WorldPosY="64.2300" WorldPosZ="401.0131" ScaleX="5.2841" ScaleY="10.6943" ScaleZ="1.0000" RotateX="0" RotateY="-78" RotateZ="0" versionNumber="3" StartChannel="&gt;Driveway Sign - E:1">
+    <model DisplayAs="Window Frame" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="16" parm3="16" Rotation="CW" LayoutGroup="Default" parm2="9" name="Driveway Sign - W" WorldPosX="-499.2249" WorldPosY="64.2300" WorldPosZ="401.0131" ScaleX="5.2841" ScaleY="10.6943" ScaleZ="1.0000" RotateX="0" RotateY="-78" RotateZ="0" versionNumber="3" StartChannel="&gt;Driveway Edge - W:1">
       <ControllerConnection/>
     </model>
     <model DisplayAs="Window Frame" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="16" parm3="16" Rotation="CW" LayoutGroup="Default" parm2="9" name="Driveway Sign - E" WorldPosX="-40.0934" WorldPosY="75.7729" WorldPosZ="454.7148" ScaleX="5.2841" ScaleY="10.6943" ScaleZ="1.0000" RotateX="0" RotateY="67" RotateZ="0" versionNumber="3" StartChannel="&gt;Driveway Edge - E:1">
       <ControllerConnection/>
     </model>
-    <model DisplayAs="Poly Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" name="Driveway Edge - E" parm2="250" WorldPosX="57.2124" WorldPosY="91.8730" WorldPosZ="7.8972" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="2" PointData="-53.632568,-83.782051,24.424021,-164.287384,-91.872963,493.894440" cPointData="" versionNumber="3" StartChannel="&gt;Driveway Edge - W:1">
+    <model DisplayAs="Poly Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" name="Driveway Edge - E" parm2="250" WorldPosX="57.2124" WorldPosY="91.8730" WorldPosZ="7.8972" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="2" PointData="-53.632568,-83.782051,24.424021,-164.287384,-91.872963,493.894440" cPointData="" versionNumber="3" StartChannel="&gt;Driveway Sign - W:1">
       <ControllerConnection/>
     </model>
     <model DisplayAs="Poly Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" name="Driveway Edge - W" parm2="250" WorldPosX="-311.3962" WorldPosY="91.8730" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="2" PointData="-53.632568,-83.782051,24.424021,-164.287384,-91.872963,493.894440" cPointData="" versionNumber="3" StartChannel="&gt;Garage Roof Line:1">
@@ -51,7 +51,10 @@
   </views>
   <palettes/>
   <modelGroups>
-    <modelGroup selected="0" name="All" LayoutGroup="Default" models="Driveway Edge - E,Driveway Edge - W,Garage Roof Line,LG Cage,LG Cage/head,SM Cage 1,SM Cage 1/head,SM Cage 1 Slack,SM Cage 2,SM Cage 2/head,SM Cage 2 Slack" GridSize="400" layout="minimalGrid">
+    <modelGroup selected="0" name="All" LayoutGroup="Default" models="Driveway Edge - E,Driveway Edge - W,Garage Roof Line,LG Cage,LG Cage/head,SM Cage 1,SM Cage 1/head,SM Cage 1 Slack,SM Cage 2,SM Cage 2/head,SM Cage 2 Slack,Driveway Sign - E,Driveway Sign - W" GridSize="400" layout="minimalGrid">
+      <ControllerConnection/>
+    </modelGroup>
+    <modelGroup selected="0" name="Driveway Edges" LayoutGroup="Default" models="Driveway Edge - E,Driveway Edge - W" GridSize="400" layout="minimalGrid">
       <ControllerConnection/>
     </modelGroup>
   </modelGroups>

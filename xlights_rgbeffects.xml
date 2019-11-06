@@ -51,7 +51,10 @@
   </views>
   <palettes/>
   <modelGroups>
-    <modelGroup selected="0" name="All" LayoutGroup="Default" models="Driveway Edge - E,Driveway Edge - W,Garage Roof Line,LG Cage,LG Cage/head,SM Cage 1,SM Cage 1/head,SM Cage 1 Slack,SM Cage 2,SM Cage 2/head,SM Cage 2 Slack" GridSize="400" layout="minimalGrid">
+    <modelGroup selected="0" name="All" LayoutGroup="Default" models="Driveway Edge - E,Driveway Edge - W,Garage Roof Line,LG Cage,LG Cage/head,SM Cage 1,SM Cage 1/head,SM Cage 1 Slack,SM Cage 2,SM Cage 2/head,SM Cage 2 Slack,Driveway Sign - E,Driveway Sign - W" GridSize="400" layout="minimalGrid">
+      <ControllerConnection/>
+    </modelGroup>
+    <modelGroup selected="0" name="Driveway Edges" LayoutGroup="Default" models="Driveway Edge - E,Driveway Edge - W" GridSize="400" layout="minimalGrid">
       <ControllerConnection/>
     </modelGroup>
   </modelGroups>
