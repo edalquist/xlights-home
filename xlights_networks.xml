@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Networks computer="edalquist-macbookpro2">
+  <network ChannelsPerPacket="1440" KeepChannelNumbers="1" AutoStartChannels="false" ComPort="fpp-garage-peak" BaudRate="64001" NetworkType="DDP" Description="fpp-garage-peak" Controller="F8-B-20" MaxChannels="3000"/>
+  <network ChannelsPerPacket="1440" KeepChannelNumbers="1" AutoStartChannels="false" ComPort="fpp-driveway-west" BaudRate="64001" NetworkType="DDP" Description="fpp-driveway-west" Controller="PiHat" MaxChannels="900"/>
+  <network ComPort="192.168.0.112" BaudRate="1" NetworkType="E131" Controller="F4v3" MaxChannels="510" NumUniverses="2" AutoStartChannels="false"/>
+</Networks>
