@@ -1,67 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xrgb>
   <models>
-    <model StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm2="50" parm3="1" LayoutGroup="Default" DisplayAs="Vert Matrix" name="Tree Branches" parm1="7" WorldPosX="-39.2475" WorldPosY="26.3696" WorldPosZ="409.9322" ScaleX="7.5715" ScaleY="1.1547" ScaleZ="8.1668" RotateX="0" RotateY="16" RotateZ="0" versionNumber="3" StartChannel="&gt;Driveway Edge - W:1">
-      <ControllerConnection/>
+    <model DisplayAs="Poly Line" StringType="RGB Nodes" StartSide="B" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" SegsExpanded="FALSE" IndivSegs="1" name="Garage Roof - West" Controller="Garage Peak" Dir="R" Seg1="250" Seg2="50" parm2="300" WorldPosX="-246.8383" WorldPosY="222.1582" WorldPosZ="-1.6415" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="3" PointData="71.262314,4.782455,-88.366119,198.225555,-80.773529,-85.390732,198.136063,-80.739746,-127.397270" cPointData="" Locked="1" versionNumber="5" StartChannel="!Garage Peak:901">
+      <ControllerConnection Protocol="ws2811" Port="2"/>
     </model>
-    <model StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" DisplayAs="Horiz Matrix" LayoutGroup="Default" parm1="10" parm2="10" name="Bush Hat" WorldPosX="-451.6255" WorldPosY="105.8582" WorldPosZ="216.3891" ScaleX="8.0384" ScaleY="6.9402" ScaleZ="5.4444" RotateX="57" RotateY="-20" RotateZ="-155" versionNumber="3" StartChannel="&gt;Driveway Edge - E:1">
-      <ControllerConnection/>
+    <model DisplayAs="Poly Line" StringType="RGB Nodes" StartSide="B" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" SegsExpanded="FALSE" IndivSegs="1" Seg1="50" Seg2="250" Controller="Garage Peak" name="Garage Roof - East" Dir="R" parm2="300" WorldPosX="-244.1675" WorldPosY="221.8919" WorldPosZ="-1.6415" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="3" PointData="-52.985825,-76.691788,-127.482933,-52.201248,-76.032928,-85.390732,68.353989,4.967468,-88.383179" cPointData="" Locked="1" versionNumber="5" StartChannel="!Garage Peak:1">
+      <ControllerConnection Protocol="ws2811" Port="1"/>
     </model>
-    <model DisplayAs="Icicles" StringType="RGB Nodes" StartSide="B" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="105" name="Bush - Icicles - upper" DropPattern="7" Dir="R" WorldPosX="-406.9683" WorldPosY="82.4263" WorldPosZ="216.2202" X2="-64.015900" Y2="1.000000" Z2="37.198654" RotateX="0" Height="0.500000" Shear="0.000000" versionNumber="3" StartChannel="&gt;Bush Hat:1">
-      <ControllerConnection/>
+    <model StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm2="50" parm3="1" LayoutGroup="Default" DisplayAs="Vert Matrix" name="Tree Branches" parm1="7" Controller="fpp-driveway-west" WorldPosX="-39.2475" WorldPosY="26.3696" WorldPosZ="409.9322" ScaleX="7.5715" ScaleY="1.1547" ScaleZ="8.1668" RotateX="-0.00000000" RotateY="-16.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!fpp-driveway-west:901">
+      <ControllerConnection Protocol="ws2811" Port="2"/>
     </model>
-    <model DisplayAs="Wreath" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="19" name="Wreath - Inner" WorldPosX="-175.0114" WorldPosY="183.1686" WorldPosZ="-86.8345" ScaleX="1.3570" ScaleY="1.3570" ScaleZ="2.7260" RotateX="0" RotateY="0" RotateZ="0" versionNumber="3" StartChannel="&gt;Wreath - Outer:1">
-      <ControllerConnection/>
+    <model StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" DisplayAs="Horiz Matrix" LayoutGroup="Default" name="Bush Hat" parm1="1" parm2="100" parm3="10" Controller="fpp-driveway-east" WorldPosX="-451.6255" WorldPosY="105.8582" WorldPosZ="216.3891" ScaleX="7.1407" ScaleY="11.3581" ScaleZ="0.1525" RotateX="-154.70355225" RotateY="33.74835205" RotateZ="119.84011078" versionNumber="5" StartChannel="!fpp-driveway-east:1189">
+      <ControllerConnection Protocol="ws2811" Port="6"/>
     </model>
-    <model DisplayAs="Icicles" StringType="RGB Nodes" StartSide="B" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="105" name="Bush - Icicles - lower" DropPattern="7" Dir="R" WorldPosX="-407.0217" WorldPosY="63.7364" WorldPosZ="216.2202" X2="-64.015900" Y2="1.000000" Z2="37.198654" RotateX="0" Height="0.500000" Shear="0.000001" versionNumber="3" StartChannel="&gt;Bush - Icicles - upper:1">
-      <ControllerConnection/>
+    <model DisplayAs="Icicles" StringType="RGB Nodes" StartSide="B" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="105" name="Bush - Icicles - upper" DropPattern="7" Dir="R" Controller="fpp-driveway-east" WorldPosX="-406.9683" WorldPosY="82.4263" WorldPosZ="216.2202" X2="-64.015900" Y2="1.000000" Z2="37.198654" RotateX="0.00000000" Height="0.500000" Shear="0.000000" versionNumber="5" StartChannel="!fpp-driveway-east:1804">
+      <ControllerConnection Protocol="ws2811" Port="8"/>
     </model>
-    <model DisplayAs="Wreath" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" name="Wreath - Outer" parm2="31" WorldPosX="-175.1401" WorldPosY="182.5806" WorldPosZ="-86.8345" ScaleX="1.0610" ScaleY="1.0610" ScaleZ="2.1313" RotateX="0" RotateY="0" RotateZ="0" versionNumber="3" StartChannel="&gt;Garage Roof Line:1">
-      <ControllerConnection/>
+    <model DisplayAs="Wreath" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="19" name="Wreath - Inner" Controller="Garage Peak" WorldPosX="-175.0114" WorldPosY="183.1686" WorldPosZ="-86.8345" ScaleX="1.3570" ScaleY="1.3570" ScaleZ="2.7260" RotateX="-0.00000000" RotateY="-0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Garage Peak:1801">
+      <ControllerConnection Protocol="ws2811" Port="3"/>
     </model>
-    <model DisplayAs="Poly Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" name="Driveway Edge - E" parm2="300" WorldPosX="57.2124" WorldPosY="91.8730" WorldPosZ="7.8972" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="2" PointData="-53.632568,-83.782051,24.424021,-164.287384,-91.872963,493.894440" cPointData="" versionNumber="3" StartChannel="36211">
-      <ControllerConnection/>
+    <model DisplayAs="Icicles" StringType="RGB Nodes" StartSide="B" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="105" name="Bush - Icicles - lower" DropPattern="7" Dir="R" Controller="fpp-driveway-east" WorldPosX="-407.0217" WorldPosY="63.7364" WorldPosZ="216.2202" X2="-64.015900" Y2="1.000000" Z2="37.198654" RotateX="0.00000000" Height="0.500000" Shear="0.000001" versionNumber="5" StartChannel="!fpp-driveway-east:1489">
+      <ControllerConnection Protocol="ws2811" Port="7"/>
     </model>
-    <model DisplayAs="Poly Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" name="Driveway Edge - W" parm2="300" WorldPosX="-311.3962" WorldPosY="91.8730" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="2" PointData="-53.632568,-83.782051,24.424021,-164.287384,-91.872963,493.894440" cPointData="" versionNumber="3" StartChannel="&gt;Bush - Icicles - lower:1">
-      <ControllerConnection/>
+    <model DisplayAs="Wreath" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" name="Wreath - Outer" parm2="31" Controller="Garage Peak" ModelChain="&gt;Wreath - Inner" WorldPosX="-175.1401" WorldPosY="182.5806" WorldPosZ="-86.8345" ScaleX="1.0610" ScaleY="1.0610" ScaleZ="2.1313" RotateX="-0.00000000" RotateY="-0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Garage Peak:1858">
+      <ControllerConnection Protocol="ws2811" Port="3"/>
     </model>
-    <model DisplayAs="Poly Line" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" StringType="RGB Nodes" parm2="600" name="Garage Roof Line" WorldPosX="-273.5670" WorldPosY="169.1147" WorldPosZ="-87.2302" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="5" PointData="-22.893799,-19.492859,-29.796875,-21.981445,-23.743698,-1.213089,97.688583,59.685303,-0.606544,217.652954,-25.319916,-0.303272,217.352142,-21.315384,-38.766495" cPointData="" versionNumber="3" StartChannel="12071">
-      <ControllerConnection/>
-      <subModel name="east" layout="horizontal" type="ranges" line0="1-300">
-        <ControllerConnection/>
-      </subModel>
-      <subModel name="west" layout="horizontal" type="ranges" line0="300-599">
-        <ControllerConnection/>
-      </subModel>
+    <model DisplayAs="Poly Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="300" Controller="fpp-driveway-east" name="Driveway Edge - W" WorldPosX="57.2124" WorldPosY="91.8730" WorldPosZ="7.8972" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="2" PointData="-53.632568,-83.782051,24.424021,-164.287384,-91.872963,493.894440" cPointData="" versionNumber="5" StartChannel="!fpp-driveway-east:1">
+      <ControllerConnection Port="1" Protocol="ws2811" reverse="1"/>
     </model>
-    <model DisplayAs="Circle" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="50" InsideOut="0" LayoutGroup="Default" parm2="4" name="SM Cage 2 Slack" WorldPosX="-290.6303" WorldPosY="7.3010" WorldPosZ="-63.2125" ScaleX="5.1549" ScaleY="3.6505" ScaleZ="0.0000" RotateX="91" RotateY="0" RotateZ="0" versionNumber="3" StartChannel="&gt;SM Cage 2:1">
-      <ControllerConnection/>
+    <model DisplayAs="Poly Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="300" Controller="fpp-driveway-west" name="Driveway Edge - E" WorldPosX="-311.3962" WorldPosY="91.8730" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="2" PointData="-53.632568,-83.782051,24.424021,-164.287384,-91.872963,493.894440" cPointData="" versionNumber="5" StartChannel="!fpp-driveway-west:1">
+      <ControllerConnection Port="1" Protocol="ws2811" reverse="1"/>
     </model>
-    <model DisplayAs="Circle" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="50" InsideOut="0" LayoutGroup="Default" parm2="4" name="SM Cage 1 Slack" WorldPosX="-260.4803" WorldPosY="7.3010" WorldPosZ="-60.6351" ScaleX="5.1549" ScaleY="3.6505" ScaleZ="0.0000" RotateX="91" RotateY="0" RotateZ="0" versionNumber="3" StartChannel="&gt;SM Cage 1:1">
-      <ControllerConnection/>
-    </model>
-    <model StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" DisplayAs="Tree 360" LayoutGroup="Default" TreeRotation="0.000000" TreeBottomTopRatio="10.000000" TreePerspective="0.200000" parm1="1" parm2="96" parm3="8" NodeNames="" StrandNames="" name="SM Cage 1" WorldPosX="-291.2205" WorldPosY="11.0485" WorldPosZ="-64.7410" ScaleX="0.6385" ScaleY="0.6273" ScaleZ="0.6385" RotateX="0" RotateY="0" RotateZ="0" versionNumber="3" StartChannel="1">
-      <ControllerConnection/>
-      <subModel name="head" layout="horizontal" type="ranges" line0="8,17,32,41,56,65,80,89" line1="9,16,33,40,57,64,81,88" line2="10,15,34,39,58,63,82,87">
+    <model StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" DisplayAs="Tree 360" LayoutGroup="Default" TreeRotation="0.000000" TreeBottomTopRatio="10.000000" TreePerspective="0.200000" parm2="96" parm3="8" NodeNames="" StrandNames="" name="SM Cage 1" Controller="fpp-driveway-east" parm1="1" WorldPosX="-291.2205" WorldPosY="11.0485" WorldPosZ="-64.7410" ScaleX="0.6385" ScaleY="0.6273" ScaleZ="0.6385" RotateX="-0.00000000" RotateY="-0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!fpp-driveway-east:901">
+      <ControllerConnection Port="2" Protocol="ws2811"/>
+      <subModel name="head" layout="horizontal" type="ranges" line0="8,17,32,41,56,65,80,89" line1="9,16,33,40,57,64,81,88" line2="10,15,34,39,58,63,82,87" WorldPosX="-291.2205" WorldPosY="11.0485" WorldPosZ="-64.7410" ScaleX="0.6385" ScaleY="0.6273" ScaleZ="0.6385" RotateX="-0.00000000" RotateY="-0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="2962">
         <ControllerConnection/>
       </subModel>
     </model>
-    <model StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" DisplayAs="Tree 360" LayoutGroup="Default" TreeRotation="0.000000" TreeBottomTopRatio="10.000000" TreePerspective="0.200000" parm1="1" parm2="96" parm3="8" NodeNames="" StrandNames="" name="SM Cage 2" WorldPosX="-260.1547" WorldPosY="11.2914" WorldPosZ="-62.0259" ScaleX="0.6385" ScaleY="0.6273" ScaleZ="0.6385" RotateX="0" RotateY="0" RotateZ="0" versionNumber="3" StartChannel="&gt;SM Cage 1 Slack:1">
-      <ControllerConnection/>
-      <subModel name="head" layout="horizontal" type="ranges" line0="8,17,32,41,56,65,80,89" line1="9,16,33,40,57,64,81,88" line2="10,15,34,39,58,63,82,87">
+    <model StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" DisplayAs="Tree 360" LayoutGroup="Default" TreeRotation="0.000000" TreeBottomTopRatio="10.000000" TreePerspective="0.200000" parm1="1" parm2="96" parm3="8" NodeNames="" StrandNames="" name="SM Cage 2" WorldPosX="-260.1547" WorldPosY="11.2914" WorldPosZ="-62.0259" ScaleX="0.6385" ScaleY="0.6273" ScaleZ="0.6385" RotateX="-0.00000000" RotateY="-0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Garage Peak:1951">
+      <ControllerConnection SmartRemote="1" Protocol="ws2811"/>
+      <subModel name="head" layout="horizontal" type="ranges" line0="8,17,32,41,56,65,80,89" line1="9,16,33,40,57,64,81,88" line2="10,15,34,39,58,63,82,87" WorldPosX="-260.1547" WorldPosY="11.2914" WorldPosZ="-62.0259" ScaleX="0.6385" ScaleY="0.6273" ScaleZ="0.6385" RotateX="-0.00000000" RotateY="-0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="1972">
         <ControllerConnection/>
       </subModel>
     </model>
-    <model StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" DisplayAs="Tree 360" LayoutGroup="Default" TreeRotation="0.000000" TreeBottomTopRatio="10.000000" TreePerspective="0.200000" parm1="1" NodeNames="" StrandNames="" name="LG Cage" parm2="200" parm3="10" WorldPosX="-275.2651" WorldPosY="23.2920" WorldPosZ="-82.5187" ScaleX="0.7828" ScaleY="0.7764" ScaleZ="0.7828" RotateX="0" RotateY="0" RotateZ="0" versionNumber="3" StartChannel="&gt;SM Cage 2 Slack:1">
-      <ControllerConnection/>
-      <subModel name="head" layout="horizontal" type="ranges" line0="14,27,54,67,94,107,134,147,174,187" line1="15,26,55,66,95,106,135,146,175,186" line2="16,25,56,65,96,105,136,145,176,185" line3="17,24,57,64,97,104,137,144,177,184" line4="18,23,58,63,98,103,138,143,178,183">
+    <model StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" DisplayAs="Tree 360" LayoutGroup="Default" TreeRotation="0.000000" TreeBottomTopRatio="10.000000" TreePerspective="0.200000" parm1="1" NodeNames="" StrandNames="" name="LG Cage" parm2="200" parm3="10" WorldPosX="-275.2651" WorldPosY="23.2920" WorldPosZ="-82.5187" ScaleX="0.7828" ScaleY="0.7764" ScaleZ="0.7828" RotateX="-0.00000000" RotateY="-0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!Garage Peak:1951">
+      <ControllerConnection SmartRemote="1" Protocol="ws2811"/>
+      <subModel name="head" layout="horizontal" type="ranges" line0="14,27,54,67,94,107,134,147,174,187" line1="15,26,55,66,95,106,135,146,175,186" line2="16,25,56,65,96,105,136,145,176,185" line3="17,24,57,64,97,104,137,144,177,184" line4="18,23,58,63,98,103,138,143,178,183" WorldPosX="-275.2651" WorldPosY="23.2920" WorldPosZ="-82.5187" ScaleX="0.7828" ScaleY="0.7764" ScaleZ="0.7828" RotateX="-0.00000000" RotateY="-0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="1990">
         <ControllerConnection/>
       </subModel>
     </model>
   </models>
   <view_objects>
-    <view_object DisplayAs="Gridlines" LayoutGroup="Default" name="Gridlines" GridLineSpacing="50" GridWidth="2000.0" GridHeight="1000.0" Active="1" WorldPosX="0.0000" WorldPosY="0.0000" WorldPosZ="0.0000" ScaleX="1.0220" ScaleY="1.0220" ScaleZ="1.0220" RotateX="90" RotateY="0" RotateZ="0" versionNumber="3"/>
-    <view_object name="Mesh" DisplayAs="Mesh" LayoutGroup="Default" ObjFile="/Users/edalquist/git/xlights-home/TestProj.obj" Brightness="25" WorldPosX="-342.0000" WorldPosY="-3.0000" WorldPosZ="0.0000" ScaleX="0.0434" ScaleY="0.0434" ScaleZ="0.0434" RotateX="0" RotateY="0" RotateZ="0" versionNumber="3"/>
+    <view_object DisplayAs="Gridlines" LayoutGroup="Default" name="Gridlines" GridLineSpacing="50" GridWidth="2000.0" GridHeight="1000.0" Active="1" WorldPosX="0.0000" WorldPosY="0.0000" WorldPosZ="0.0000" ScaleX="1.0220" ScaleY="1.0220" ScaleZ="1.0220" RotateX="-90.00000000" RotateY="-0.00000000" RotateZ="0.00000000" versionNumber="5"/>
+    <view_object name="Mesh" DisplayAs="Mesh" LayoutGroup="Default" ObjFile="/Users/edalquist/git/xlights-home/TestProj.obj" Brightness="25" WorldPosX="-342.0000" WorldPosY="-3.0000" WorldPosZ="0.0000" ScaleX="0.0434" ScaleY="0.0434" ScaleZ="0.0434" RotateX="-0.00000000" RotateY="-0.00000000" RotateZ="0.00000000" versionNumber="5"/>
   </view_objects>
   <effects version="0006"/>
   <views>
@@ -69,10 +60,10 @@
   </views>
   <palettes/>
   <modelGroups>
-    <modelGroup selected="0" name="All" LayoutGroup="Default" GridSize="400" layout="minimalGrid" models="Driveway Edge - E,Driveway Edge - W,Garage Roof Line,LG Cage,LG Cage/head,SM Cage 1,SM Cage 1/head,SM Cage 1 Slack,SM Cage 2,SM Cage 2/head,SM Cage 2 Slack">
+    <modelGroup selected="0" name="All" LayoutGroup="Default" models="Driveway Edge - W,Driveway Edge - E,Garage Roof - East,LG Cage,LG Cage/head,SM Cage 1,SM Cage 1/head,SM Cage 2,SM Cage 2/head,Bush - Icicles - lower,Bush - Icicles - upper,Bush Hat,Driveway Edges,East Bush,Tree Branches,Wreath,Wreath - Inner,Wreath - Outer,Garage Roof - West,Garage Roof" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid">
       <ControllerConnection/>
     </modelGroup>
-    <modelGroup selected="0" name="Driveway Edges" LayoutGroup="Default" models="Driveway Edge - E,Driveway Edge - W" GridSize="400" layout="minimalGrid">
+    <modelGroup selected="0" name="Driveway Edges" LayoutGroup="Default" GridSize="400" layout="minimalGrid" models="Driveway Edge - W,Driveway Edge - E">
       <ControllerConnection/>
     </modelGroup>
     <modelGroup selected="0" name="Wreath" LayoutGroup="Default" models="Wreath - Inner,Wreath - Outer" GridSize="400" layout="minimalGrid">
@@ -81,6 +72,7 @@
     <modelGroup selected="0" name="East Bush" LayoutGroup="Default" models="Bush - Icicles - lower,Bush - Icicles - upper,Bush Hat" GridSize="400" layout="minimalGrid">
       <ControllerConnection/>
     </modelGroup>
+    <modelGroup selected="0" name="Garage Roof" LayoutGroup="Default" models="Garage Roof - East,Garage Roof - West" GridSize="400" layout="Single Line"/>
   </modelGroups>
   <layoutGroups/>
   <perspectives current="Default Perspective">

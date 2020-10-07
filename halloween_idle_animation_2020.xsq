@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2020.42</version>
+    <author/>
+    <author-email/>
+    <author-website/>
+    <song/>
+    <artist/>
+    <album/>
+    <MusicURL/>
+    <comment/>
+    <sequenceTiming>25 ms</sequenceTiming>
+    <sequenceType>Animation</sequenceType>
+    <mediaFile/>
+    <sequenceDuration>180.000</sequenceDuration>
+    <imageDir/>
+  </head>
+  <nextid>1</nextid>
+  <Jukebox/>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FF2F00,C_BUTTON_Palette2=#FF00B3,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#FFFFFF,C_BUTTON_Palette8=#FF2F00,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_SLIDER_Brightness=75</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FF2F00,C_BUTTON_Palette2=#FF00B3,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#FFFFFF,C_BUTTON_Palette8=#FFFFFF,C_CHECKBOX_Palette6=1,C_CHECKBOX_Palette7=1,C_CHECKBOX_Palette8=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FF2F00,C_BUTTON_Palette2=#E609DC,C_BUTTON_Palette3=#DB4BDC,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FF0000,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#FFFFFF,C_BUTTON_Palette8=#FF2F00,C_CHECKBOX_Palette2=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FF2F00,C_BUTTON_Palette2=#FF00B3,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FF0000,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#FFFFFF,C_BUTTON_Palette8=#FF2F00,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette6=1,C_CHECKBOX_Palette8=1,C_SLIDER_Brightness=75</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#000000,C_BUTTON_Palette2=#FF00B3,C_BUTTON_Palette3=#FF2F00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FF0000,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#FFFFFF,C_BUTTON_Palette8=#FF2F00,C_CHECKBOX_Palette2=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#000000,C_BUTTON_Palette2=#FF00B3,C_BUTTON_Palette3=#FF2F00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FF0000,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#FFFFFF,C_BUTTON_Palette8=#FF2F00,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette6=1,C_CHECKBOX_Palette8=1,C_SLIDER_Brightness=50</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FF0000,C_BUTTON_Palette2=#FF00B3,C_BUTTON_Palette3=#000000,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FF2F00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#FF0000,C_BUTTON_Palette8=#FF2F00,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette6=1,C_CHECKBOX_Palette7=1,C_CHECKBOX_Palette8=1,C_SLIDER_Brightness=50</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FF2F00,C_BUTTON_Palette2=#FF00B3,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FF0000,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#FFFFFF,C_BUTTON_Palette8=#FF2F00,C_CHECKBOX_Palette3=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>E_CHECKBOX_ColorWash_CircularPalette=1,E_TEXTCTRL_ColorWash_Cycles=19</Effect>
+    <Effect>E_CHECKBOX_ColorWash_CircularPalette=1,T_CHOICE_LayerMethod=Additive</Effect>
+    <Effect>E_CHOICE_Butterfly_Colors=Palette,E_CHOICE_Butterfly_Direction=Normal,E_SLIDER_Butterfly_Chunks=1,E_SLIDER_Butterfly_Skip=2,E_SLIDER_Butterfly_Speed=13,E_SLIDER_Butterfly_Style=2</Effect>
+    <Effect>E_CHECKBOX_ColorWash_CircularPalette=1,E_TEXTCTRL_ColorWash_Cycles=13</Effect>
+    <Effect>E_CHECKBOX_Strobe_Music=0,E_SLIDER_Number_Strobes=2,E_SLIDER_Strobe_Duration=3,E_SLIDER_Strobe_Type=1,T_CHECKBOX_Canvas=1</Effect>
+    <Effect>E_CHECKBOX_ColorWash_CircularPalette=1,E_TEXTCTRL_ColorWash_Cycles=20.0</Effect>
+    <Effect>E_CHECKBOX_Chase_3dFade1=1,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Right-Left,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=18,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=1</Effect>
+    <Effect>E_CHECKBOX_ColorWash_CircularPalette=1,E_TEXTCTRL_ColorWash_Cycles=17</Effect>
+    <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Left-Right,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=1.0</Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="49" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View,Beat" active="1"/>
+    <Element collapsed="0" type="timing" name="250ms Metronome" visible="1" views="" active="0"/>
+    <Element collapsed="1" type="model" name="All" visible="1"/>
+    <Element collapsed="0" type="model" name="SM Cage 1" visible="1"/>
+    <Element collapsed="0" type="model" name="SM Cage 2" visible="1"/>
+    <Element collapsed="0" type="model" name="LG Cage" visible="1"/>
+    <Element collapsed="0" type="model" name="Garage Roof" visible="1"/>
+    <Element collapsed="0" type="model" name="Driveway Edges" visible="1"/>
+    <Element collapsed="1" type="model" name="Driveway Edge - E" visible="1"/>
+    <Element collapsed="1" type="model" name="Driveway Edge - W" visible="1"/>
+    <Element collapsed="0" type="model" name="Garage Roof - West" visible="0"/>
+    <Element collapsed="0" type="model" name="Garage Roof - East" visible="0"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="New Timing">
+      <EffectLayer/>
+    </Element>
+    <Element type="timing" name="250ms Metronome" fixed="250">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="All">
+      <EffectLayer/>
+      <EffectLayer/>
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="SM Cage 1">
+      <EffectLayer>
+        <Effect ref="0" name="Color Wash" startTime="0" endTime="180000" palette="0"/>
+      </EffectLayer>
+      <SubModelEffectLayer name="head">
+        <Effect ref="1" name="Color Wash" startTime="11700" endTime="18600" palette="1"/>
+        <Effect ref="1" name="Color Wash" id="1" startTime="63500" endTime="74800" palette="1"/>
+        <Effect ref="1" name="Color Wash" id="2" startTime="98575" endTime="110275" palette="1"/>
+        <Effect ref="1" name="Color Wash" id="3" startTime="158850" endTime="170150" palette="1"/>
+      </SubModelEffectLayer>
+    </Element>
+    <Element type="model" name="SM Cage 2">
+      <EffectLayer>
+        <Effect ref="2" name="Butterfly" startTime="0" endTime="180000" palette="0"/>
+      </EffectLayer>
+      <SubModelEffectLayer name="head">
+        <Effect ref="1" name="Color Wash" startTime="5700" endTime="17000" palette="1"/>
+        <Effect ref="1" name="Color Wash" id="1" startTime="48000" endTime="54600" palette="1"/>
+        <Effect ref="1" name="Color Wash" id="2" startTime="84375" endTime="95475" palette="1"/>
+        <Effect ref="1" name="Color Wash" id="3" startTime="133800" endTime="148200" palette="1"/>
+        <Effect ref="1" name="Color Wash" id="4" startTime="168725" endTime="180025" palette="1"/>
+      </SubModelEffectLayer>
+    </Element>
+    <Element type="model" name="LG Cage">
+      <EffectLayer>
+        <Effect ref="3" name="Color Wash" startTime="0" endTime="179950" palette="0"/>
+      </EffectLayer>
+      <SubModelEffectLayer name="head">
+        <Effect ref="1" name="Color Wash" startTime="0" endTime="6300" palette="1"/>
+        <Effect ref="1" name="Color Wash" id="1" startTime="34050" endTime="48150" palette="1"/>
+        <Effect ref="1" name="Color Wash" id="2" startTime="55825" endTime="63025" palette="1"/>
+        <Effect ref="1" name="Color Wash" id="3" startTime="111100" endTime="126025" palette="1"/>
+        <Effect ref="1" name="Color Wash" id="4" startTime="148675" endTime="157975" palette="1"/>
+      </SubModelEffectLayer>
+    </Element>
+    <Element type="model" name="Garage Roof">
+      <EffectLayer>
+        <Effect ref="4" name="Strobe" startTime="0" endTime="180000" palette="2"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="5" name="Color Wash" startTime="0" endTime="180000" palette="3"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Driveway Edges">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Driveway Edge - E">
+      <EffectLayer>
+        <Effect ref="6" name="SingleStrand" startTime="0" endTime="2000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="1" startTime="5000" endTime="7000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="2" startTime="10000" endTime="12000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="3" startTime="15000" endTime="17000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="4" startTime="20000" endTime="22000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="5" startTime="25000" endTime="27000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="6" startTime="30000" endTime="32000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="7" startTime="35000" endTime="37000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="8" startTime="40000" endTime="42000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="9" startTime="45025" endTime="47025" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="10" startTime="50025" endTime="52025" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="11" startTime="55025" endTime="57025" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="12" startTime="60000" endTime="62000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="13" startTime="65000" endTime="67000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="14" startTime="70000" endTime="72000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="15" startTime="75000" endTime="77000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="16" startTime="80000" endTime="82000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="17" startTime="85000" endTime="87000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="18" startTime="90000" endTime="92000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="19" startTime="95000" endTime="97000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="20" startTime="100000" endTime="102000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="21" startTime="105025" endTime="107025" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="22" startTime="110025" endTime="112025" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="23" startTime="115025" endTime="117025" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="24" startTime="120000" endTime="122000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="25" startTime="125000" endTime="127000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="26" startTime="130000" endTime="132000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="27" startTime="135000" endTime="137000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="28" startTime="140000" endTime="142000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="29" startTime="145000" endTime="147000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="30" startTime="150000" endTime="152000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="31" startTime="155000" endTime="157000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="32" startTime="160000" endTime="162000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="33" startTime="165025" endTime="167025" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="34" startTime="170025" endTime="172025" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="35" startTime="175025" endTime="177025" palette="4"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="0" name="Color Wash" startTime="0" endTime="180000" palette="5"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Driveway Edge - W">
+      <EffectLayer>
+        <Effect ref="6" name="SingleStrand" startTime="0" endTime="2000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="1" startTime="5000" endTime="7000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="2" startTime="10000" endTime="12000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="3" startTime="15000" endTime="17000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="4" startTime="20000" endTime="22000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="5" startTime="25000" endTime="27000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="6" startTime="30000" endTime="32000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="7" startTime="35000" endTime="37000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="8" startTime="40000" endTime="42000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="9" startTime="45025" endTime="47025" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="10" startTime="50025" endTime="52025" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="11" startTime="55025" endTime="57025" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="12" startTime="60000" endTime="62000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="13" startTime="65000" endTime="67000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="14" startTime="70000" endTime="72000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="15" startTime="75000" endTime="77000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="16" startTime="80000" endTime="82000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="17" startTime="85000" endTime="87000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="18" startTime="90000" endTime="92000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="19" startTime="95000" endTime="97000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="20" startTime="100000" endTime="102000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="21" startTime="105025" endTime="107025" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="22" startTime="110025" endTime="112025" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="23" startTime="115025" endTime="117025" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="24" startTime="120000" endTime="122000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="25" startTime="125000" endTime="127000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="26" startTime="130000" endTime="132000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="27" startTime="135000" endTime="137000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="28" startTime="140000" endTime="142000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="29" startTime="145000" endTime="147000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="30" startTime="150000" endTime="152000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="31" startTime="155000" endTime="157000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="32" startTime="160000" endTime="162000" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="33" startTime="165025" endTime="167025" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="34" startTime="170025" endTime="172025" palette="4"/>
+        <Effect ref="6" name="SingleStrand" id="35" startTime="175025" endTime="177025" palette="4"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="7" name="Color Wash" startTime="0" endTime="180000" palette="6"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Garage Roof - West">
+      <EffectLayer>
+        <Effect ref="8" name="SingleStrand" startTime="175850" endTime="177650" palette="7"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Garage Roof - East">
+      <EffectLayer>
+        <Effect ref="8" name="SingleStrand" startTime="175850" endTime="177650" palette="7"/>
+      </EffectLayer>
+    </Element>
+  </ElementEffects>
+  <lastView>0</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>
