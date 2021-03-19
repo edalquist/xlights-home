@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2020.42</version>
+    <version>2020.42.2</version>
     <author></author>
     <author-email></author-email>
     <author-website></author-website>
@@ -18,10 +18,10 @@
   </head>
   <nextid>1</nextid>
   <ColorPalettes>
-    <ColorPalette>C_BUTTON_Palette1=#FF2F00,C_BUTTON_Palette2=#FF00B3,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FF0000,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#FFFFFF,C_BUTTON_Palette8=#FF2F00,C_CHECKBOX_Palette3=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FF2F00,C_BUTTON_Palette2=#FFFFFF,C_BUTTON_Palette3=#000000,C_BUTTON_Palette4=#FF0000,C_BUTTON_Palette5=#0000FF,C_BUTTON_Palette6=#00FF00,C_BUTTON_Palette7=#FF00B3,C_BUTTON_Palette8=#FF2F00,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette6=1</ColorPalette>
   </ColorPalettes>
   <EffectDB>
-    <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Left-Right,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=1.0</Effect>
+    <Effect></Effect>
   </EffectDB>
   <DataLayers>
     <DataLayer lor_params="0" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
@@ -33,6 +33,8 @@
     <Element collapsed="0" type="model" name="Wreath" visible="1"/>
     <Element collapsed="0" type="model" name="East Bush" visible="1"/>
     <Element collapsed="0" type="model" name="Garage Roof" visible="1"/>
+    <Element collapsed="0" type="model" name="Bush Behind Oogie" visible="1"/>
+    <Element collapsed="0" type="model" name="East Top Bush" visible="1"/>
     <Element collapsed="0" type="model" name="Garage Roof - West" visible="1"/>
     <Element collapsed="0" type="model" name="Garage Roof - East" visible="1"/>
     <Element collapsed="0" type="model" name="Tree Branches" visible="1"/>
@@ -41,11 +43,13 @@
     <Element collapsed="0" type="model" name="Wreath - Inner" visible="1"/>
     <Element collapsed="0" type="model" name="Bush - Icicles - lower" visible="1"/>
     <Element collapsed="0" type="model" name="Wreath - Outer" visible="1"/>
-    <Element collapsed="0" type="model" name="Driveway Edge - E" visible="1"/>
     <Element collapsed="0" type="model" name="Driveway Edge - W" visible="1"/>
+    <Element collapsed="0" type="model" name="Driveway Edge - E" visible="1"/>
     <Element collapsed="0" type="model" name="SM Cage 1" visible="1"/>
     <Element collapsed="0" type="model" name="SM Cage 2" visible="1"/>
     <Element collapsed="0" type="model" name="LG Cage" visible="1"/>
+    <Element collapsed="0" type="model" name="luminary pumpkin 1" visible="1"/>
+    <Element collapsed="0" type="model" name="luminary pumpkin 2" visible="1"/>
   </DisplayElements>
   <ElementEffects>
     <Element type="timing" name="New Timing">
@@ -64,9 +68,37 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="Garage Roof">
-      <EffectLayer>
-        <Effect ref="0" name="SingleStrand" selected="1" startTime="2500" endTime="8700" palette="0"/>
-      </EffectLayer>
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bush Behind Oogie">
+      <EffectLayer/>
+      <Strand index="0">
+        <Effect ref="0" name="On" startTime="850" endTime="5250" palette="0"/>
+      </Strand>
+      <Strand index="1">
+        <Effect ref="0" name="On" startTime="5400" endTime="10050" palette="0"/>
+      </Strand>
+      <Strand index="2">
+        <Effect ref="0" name="On" startTime="10350" endTime="15000" palette="0"/>
+      </Strand>
+      <Strand index="3">
+        <Effect ref="0" name="On" startTime="14850" endTime="19500" palette="0"/>
+      </Strand>
+      <Strand index="4">
+        <Effect ref="0" name="On" startTime="19900" endTime="24550" palette="0"/>
+      </Strand>
+      <Strand index="5">
+        <Effect ref="0" name="On" startTime="24800" endTime="29450" palette="0"/>
+      </Strand>
+      <Strand index="6">
+        <Effect ref="0" name="On" startTime="29250" endTime="33900" palette="0"/>
+      </Strand>
+      <Strand index="7">
+        <Effect ref="0" name="On" selected="1" startTime="34250" endTime="38900" palette="0"/>
+      </Strand>
+    </Element>
+    <Element type="model" name="East Top Bush">
+      <EffectLayer/>
     </Element>
     <Element type="model" name="Garage Roof - West">
       <EffectLayer/>
@@ -92,10 +124,10 @@
     <Element type="model" name="Wreath - Outer">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="Driveway Edge - E">
+    <Element type="model" name="Driveway Edge - W">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="Driveway Edge - W">
+    <Element type="model" name="Driveway Edge - E">
       <EffectLayer/>
     </Element>
     <Element type="model" name="SM Cage 1">
@@ -105,6 +137,12 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="LG Cage">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="luminary pumpkin 1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="luminary pumpkin 2">
       <EffectLayer/>
     </Element>
   </ElementEffects>

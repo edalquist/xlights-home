@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2021.03</version>
+    <author/>
+    <author-email/>
+    <author-website/>
+    <song/>
+    <artist/>
+    <album/>
+    <MusicURL/>
+    <comment/>
+    <sequenceTiming>25 ms</sequenceTiming>
+    <sequenceType>Animation</sequenceType>
+    <mediaFile/>
+    <sequenceDuration>90</sequenceDuration>
+    <imageDir/>
+  </head>
+  <nextid>1</nextid>
+  <Jukebox/>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FFFFFF,C_BUTTON_Palette3=#0000FF,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_SLIDER_Brightness=30</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_SLIDER_Brightness=10</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FFFFFF,C_BUTTON_Palette3=#0000FF,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#21FF06,C_CHECKBOX_Palette8=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>E_CHECKBOX_Twinkle_ReRandom=0,E_CHECKBOX_Twinkle_Strobe=0,E_CHOICE_Twinkle_Style=New Render Method,E_SLIDER_Twinkle_Count=20,E_SLIDER_Twinkle_Steps=40</Effect>
+    <Effect></Effect>
+    <Effect>E_CHECKBOX_Marquee_PixelOffsets=0,E_CHECKBOX_Marquee_Reverse=1,E_CHECKBOX_Marquee_WrapX=0,E_CHECKBOX_Marquee_WrapY=0,E_NOTEBOOK_Marquee=Settings,E_SLIDER_MarqueeXC=0,E_SLIDER_MarqueeYC=0,E_SLIDER_Marquee_Band_Size=2,E_SLIDER_Marquee_ScaleX=100,E_SLIDER_Marquee_ScaleY=100,E_SLIDER_Marquee_Skip_Size=1,E_SLIDER_Marquee_Speed=1,E_SLIDER_Marquee_Stagger=0,E_SLIDER_Marquee_Start=0,E_SLIDER_Marquee_Thickness=1</Effect>
+    <Effect>E_CHECKBOX_Marquee_PixelOffsets=0,E_CHECKBOX_Marquee_Reverse=0,E_CHECKBOX_Marquee_WrapX=0,E_CHECKBOX_Marquee_WrapY=0,E_NOTEBOOK_Marquee=Settings,E_SLIDER_MarqueeXC=0,E_SLIDER_MarqueeYC=0,E_SLIDER_Marquee_Band_Size=2,E_SLIDER_Marquee_ScaleX=100,E_SLIDER_Marquee_ScaleY=100,E_SLIDER_Marquee_Skip_Size=1,E_SLIDER_Marquee_Speed=1,E_SLIDER_Marquee_Stagger=0,E_SLIDER_Marquee_Start=0,E_SLIDER_Marquee_Thickness=1</Effect>
+    <Effect>E_CHECKBOX_Meteors_UseMusic=0,E_CHOICE_Meteors_Effect=Left,E_CHOICE_Meteors_Type=Palette,E_SLIDER_Meteors_Count=17,E_SLIDER_Meteors_Length=1,E_SLIDER_Meteors_Speed=9,E_SLIDER_Meteors_Swirl_Intensity=0</Effect>
+    <Effect>E_CHECKBOX_Meteors_UseMusic=0,E_CHOICE_Meteors_Effect=Right,E_CHOICE_Meteors_Type=Palette,E_SLIDER_Meteors_Count=17,E_SLIDER_Meteors_Length=1,E_SLIDER_Meteors_Speed=9,E_SLIDER_Meteors_Swirl_Intensity=0</Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="50" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="100ms" visible="1" views="" active="0"/>
+    <Element collapsed="0" type="timing" name="1000ms Metronome" visible="1" views="" active="1"/>
+    <Element collapsed="0" type="model" name="All" visible="1"/>
+    <Element collapsed="0" type="model" name="Driveway Edges" visible="1"/>
+    <Element collapsed="0" type="model" name="Wreath" visible="1"/>
+    <Element collapsed="0" type="model" name="East Top Bush" visible="1"/>
+    <Element collapsed="0" type="model" name="Driveway Edge - E" visible="1"/>
+    <Element collapsed="0" type="model" name="Driveway Edge - W" visible="1"/>
+    <Element collapsed="0" type="model" name="Garage Roof" visible="1"/>
+    <Element collapsed="0" type="model" name="SM Cage 1" visible="1"/>
+    <Element collapsed="0" type="model" name="SM Cage 2" visible="1"/>
+    <Element collapsed="0" type="model" name="LG Cage" visible="1"/>
+    <Element collapsed="0" type="model" name="Bush Behind Sign" visible="1"/>
+    <Element collapsed="0" type="model" name="Garage Roof - East" visible="0"/>
+    <Element collapsed="0" type="model" name="Garage Roof - West" visible="0"/>
+    <Element collapsed="0" type="model" name="Bush Behind Side - Bottom" visible="0"/>
+    <Element collapsed="0" type="model" name="Bush Behind Side - Top" visible="0"/>
+    <Element collapsed="0" type="model" name="Garage Outline" visible="1"/>
+    <Element collapsed="1" type="model" name="deck railing" visible="1"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="100ms" fixed="100">
+      <EffectLayer/>
+    </Element>
+    <Element type="timing" name="1000ms Metronome" fixed="1000">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="All">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Driveway Edges">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Wreath">
+      <EffectLayer/>
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="East Top Bush">
+      <EffectLayer/>
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Driveway Edge - E">
+      <EffectLayer>
+        <Effect ref="0" name="Twinkle" startTime="0" endTime="90000" palette="0"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="1" name="On" startTime="0" endTime="90000" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Driveway Edge - W">
+      <EffectLayer>
+        <Effect ref="0" name="Twinkle" startTime="0" endTime="90000" palette="0"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="1" name="On" startTime="0" endTime="90000" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Garage Roof">
+      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="1" name="On" startTime="0" endTime="90000" palette="2"/>
+      </EffectLayer>
+      <SubModelEffectLayer name="east">
+        <Effect ref="2" name="Marquee" startTime="0" endTime="90000" palette="3"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="west">
+        <Effect ref="3" name="Marquee" startTime="0" endTime="90000" palette="3"/>
+      </SubModelEffectLayer>
+    </Element>
+    <Element type="model" name="SM Cage 1">
+      <EffectLayer/>
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="SM Cage 2">
+      <EffectLayer/>
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="LG Cage">
+      <EffectLayer/>
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bush Behind Sign">
+      <EffectLayer/>
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Garage Roof - East">
+      <EffectLayer>
+        <Effect ref="4" name="Meteors" startTime="0" endTime="90000" palette="4"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Garage Roof - West">
+      <EffectLayer>
+        <Effect ref="5" name="Meteors" startTime="0" endTime="90000" palette="4"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Bush Behind Side - Bottom">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bush Behind Side - Top">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Garage Outline">
+      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="1" name="On" startTime="0" endTime="90000" palette="2"/>
+      </EffectLayer>
+      <SubModelEffectLayer name="East Half">
+        <Effect ref="5" name="Meteors" selected="1" startTime="0" endTime="90000" palette="4"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="West Half">
+        <Effect ref="4" name="Meteors" startTime="0" endTime="90000" palette="4"/>
+      </SubModelEffectLayer>
+    </Element>
+    <Element type="model" name="deck railing">
+      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="1" name="On" startTime="0" endTime="90000" palette="2"/>
+      </EffectLayer>
+    </Element>
+  </ElementEffects>
+  <lastView>0</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>
